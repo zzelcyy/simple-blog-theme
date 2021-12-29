@@ -1,0 +1,9 @@
+title: Simple Blog
+email: example@example.com
+locale: ko
+description: >
+  This is simple blog theme.
+baseurl: ""
+url: "https://simple-blog-theme.github.io"
+github_username: ""
+linked_in_profile: ""
