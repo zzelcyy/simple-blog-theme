@@ -1,0 +1,22 @@
+.author-profile-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 240px;
+    height: 100px;
+    background-color: $primary-color;
+    border-radius: 8px;
+    padding: 20px;
+    color: white;
+}
+
+.author-profile-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.author-profile-name {
+    margin-bottom: 2px;
+}

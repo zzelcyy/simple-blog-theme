@@ -1,10 +1,22 @@
 title: Simple Blog
 email: example@example.com
+author: Chelsea
 locale: ko
 description: >
   This is simple blog theme.
 baseurl: ""
 url: "https://simple-blog-theme.github.io"
-github_username: ""
-linked_in_profile: ""
+
+github_username: "zzelcyy"
+github_url: "https://github.com/zzelcyy"
+facebook_username: "Chaeeun Lee"
+facebook_url: "https://facebook.com"
+twitter_username: "Chelsea.dev"
+twitter_url: "https://twitter.com"
+
 asset_url: "/assets"
+avatar: "/assets/avatar.jpg"
+
+sass:
+  sass_dir: _sass
+  style: compressed

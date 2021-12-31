@@ -1,0 +1,26 @@
+<div>
+    <div class="author-profile-container">
+        <img src="{{ site.avatar }}" class="author-profile-img" />
+        <div>
+            <h4 class="author-profile-name">{{ site.author }}</h4>
+            {% if site.github_username and site.github_url %}
+                <p>
+                    <i class="fab fa-github"></i>
+                    <a href="{{ site.github_url }}">{{ site.github_username }}</a>
+                </p>
+            {% endif %}
+            {% if site.facebook_username and site.facebook_url %}
+                <p>
+                    <i class="fab fa-facebook"></i>
+                    <a href="{{ site.facebook_url }}">{{ site.facebook_username }}</a>
+                </p>
+            {% endif %}
+            {% if site.twitter_username and site.twitter_url %}
+                <p>
+                    <i class="fab fa-twitter"></i>
+                    <a href="{{ site.twitter_url }}">{{ site.twitter_username }}</a>
+                </p>
+            {% endif %}
+        </div>
+    </div>
+</div>
